@@ -6,15 +6,5 @@
         xmlns:local="clr-namespace:system_programming"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <ListView Name="processListView" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Process Name" Width="200" DisplayMemberBinding="{Binding Name}" />
-                    <GridViewColumn Header="PID" Width="100" DisplayMemberBinding="{Binding Id}" />
-                </GridView>
-            </ListView.View>
-        </ListView>
-        <Button Content="Refresh" Click="RefreshButton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" />
-    </Grid>
+    
 </Window>

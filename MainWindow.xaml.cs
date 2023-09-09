@@ -14,14 +14,6 @@ namespace system_programming
             InitializeComponent();
         }
 
-        private void RefreshButton_Click(object sender, RoutedEventArgs e)
-        {
-            List<Process> processList = new List<Process>(Process.GetProcesses());
-            processListView.Items.Clear();
-            foreach (var process in processList)
-            {
-                processListView.Items.Add(new { Name = process.ProcessName, Id = process.Id });
-            }
-        }
+        
     }
 }
